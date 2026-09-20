@@ -1,6 +1,6 @@
 # Mini News Hub
 
-Mini News Hub is a small news website built with Next.js. It is a learning project for practicing the App Router, dynamic routes, layouts, parallel routes, reusable components, and local image assets.
+Mini News Hub is a small news website built with Next.js. It is a learning project for practicing the App Router, dynamic routes, layouts, parallel routes, reusable components, and local image assets....
 
 ![Mini News Hub news image](public/images/news/ai-robot.jpg)
 
@@ -25,6 +25,7 @@ Mini News Hub is a small news website built with Next.js. It is a learning proje
 
 ### 1. Install dependencies
 
+
 ```bash
 npm install
 ```
@@ -35,7 +36,8 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+Open [http://localhost:3000](http://localhost:3000) in your browser...
 
 ## Available Routes
 
@@ -45,6 +47,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | `/news` | List of available news articles |
 | `/news/[slug]` | Detail page for one article |
 | `/archive/[year]` | Archived news for a selected year |
+
 
 ## Project Structure
 
@@ -59,6 +62,7 @@ public/
 	images/news/         Article images
 ```
 
+
 ## Available Scripts
 
 ```bash
@@ -68,6 +72,8 @@ npm run build    # Create a production build
 npm run start    # Start the production server
 ```
 
+
 ## Notes
 
-This demo uses local sample data from `src/app/dummy-news.js`. There is no database or external news API, which keeps the project small and easy to experiment with.
+This demo uses local sample data from `src/app/dummy-news.js`. 
+There is no database or external news API, which keeps the project small and easy to experiment with.
